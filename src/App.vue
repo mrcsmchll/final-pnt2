@@ -1,25 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Conversor msg="Conversor de Temperatura"/>
+  <br>
+  <hr>
+  <p>Respuestas: 1:C - 2:B - 3:C - 4:A</p>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Conversor from './components/Conversor.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Conversor
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
   margin-top: 60px;
 }
